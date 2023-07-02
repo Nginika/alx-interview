@@ -8,6 +8,10 @@
 
 
 def pascal_triangle(n):
+    """
+        checks for n value of < 0, 1 and 2 and returns directly
+        starts from n value of 3 to generate the triangle lists
+    """
     row = []
 
     if n <= 0:
