@@ -4,6 +4,9 @@
 
 def island_perimeter(grid):
     """returns the perimeter of an island grid"""
+    if not grid:
+        return 0
+
     count = 0
     for meter in grid:
         for square in meter:
